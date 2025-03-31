@@ -3,10 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
-//Route::get('/welcome', function () {
-//    return view('welcome');
-//})->name('welcome');
-//
 Route::get('/', function () {
     return view('home');
 })->name('home');
@@ -21,6 +17,9 @@ Route::middleware(['auth'])->group(function () {
     Volt::route('settings/profile', 'settings.profile')->name('settings.profile');
     Volt::route('settings/password', 'settings.password')->name('settings.password');
     Volt::route('settings/appearance', 'settings.appearance')->name('settings.appearance');
+
+    Volt::route('profile/edit-profile', 'profile.edit-profile')->name('profile.personal-info');
 });
 
-require __DIR__ . '/auth.php';
+
+require __DIR__.'/auth.php';

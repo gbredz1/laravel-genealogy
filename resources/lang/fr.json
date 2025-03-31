@@ -283,5 +283,8 @@
     "Whoops!": "Oups !",
     "Yes": "Oui",
     "You are receiving this email because we received a password reset request for your account.": "Vous recevez cet e-mail car nous avons reçu une demande de réinitialisation de mot de passe pour votre compte.",
-    "Your email address is unverified.": "Votre adresse e-mail n'est pas vérifiée."
+    "Your email address is unverified.": "Votre adresse e-mail n'est pas vérifiée.",
+    "Family Member Count": "Total de membres de la famille",
+    "Number of shared trees": "Total des arbres partagés",
+    "Active members": "Membres actifs"
 }
